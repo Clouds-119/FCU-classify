@@ -1,0 +1,28 @@
+{
+  "model_name": "XGBoost",
+  "k": 300,
+  "best_macro_f1": 0.924141722475056,
+  "n_window_samples": 7560,
+  "n_files": 168,
+  "n_features": 1280,
+  "cv_method": "StratifiedGroupKFold",
+  "n_splits": 5,
+  "class_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "outputs": {
+    "model": "artifacts_window_typed_v2_train_refine\\best_window_pipeline.pkl",
+    "cv_results": "artifacts_window_typed_v2_train_refine\\window_cv_results.csv",
+    "oof_file_predictions": "artifacts_window_typed_v2_train_refine\\best_cv_file_predictions.csv",
+    "classification_report": "artifacts_window_typed_v2_train_refine\\best_classification_report.csv",
+    "confusion_matrix": "artifacts_window_typed_v2_train_refine\\best_confusion_matrix.csv"
+  }
+}
