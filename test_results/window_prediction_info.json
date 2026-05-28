@@ -1,0 +1,49 @@
+{
+  "data_dir": "artifacts_window_typed_v3_w120",
+  "model_files": [
+    "artifacts_xgb_tune_w120\\best_xgb_window_pipeline.pkl"
+  ],
+  "weights": [
+    1.0
+  ],
+  "aggregation": "mean",
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "n_window_samples": 280,
+  "n_files": 280,
+  "output_file": "test_results\\w120_xgb_tuned_file_predictions.csv",
+  "submission_file": "test_results\\w120_xgb_tuned_submission.csv",
+  "window_output_file": "test_results\\w120_xgb_tuned_level_predictions.csv",
+  "model_infos": [
+    {
+      "model_file": "artifacts_xgb_tune_w120\\best_xgb_window_pipeline.pkl",
+      "model_name": "XGBoost_tuned",
+      "k": 300,
+      "best_macro_f1": 0.9243403355903357,
+      "n_features": 1280,
+      "aggregation_in_training": "mean_probability_by_group"
+    }
+  ],
+  "predicted_label_distribution": {
+    "0": 10,
+    "1": 43,
+    "2": 46,
+    "3": 47,
+    "4": 60,
+    "5": 28,
+    "6": 28,
+    "7": 8,
+    "8": 10
+  },
+  "low_confidence_count_top1_lt_0_6": 83,
+  "low_margin_count_lt_0_1": 35
+}
