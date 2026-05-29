@@ -1,0 +1,31 @@
+﻿model,condition,n,accuracy
+xgboost,all,168,0.9345238095238095
+xgboost,top1_probability < 0.5,36,0.7777777777777778
+xgboost,top1_probability < 0.6,51,0.803921568627451
+xgboost,top1_probability < 0.7,75,0.8533333333333334
+xgboost,top1_probability < 0.8,82,0.8658536585365854
+xgboost,top1_probability < 0.9,90,0.8777777777777778
+xgboost,prob_margin < 0.05,3,0.6666666666666666
+xgboost,prob_margin < 0.1,8,0.625
+xgboost,prob_margin < 0.2,24,0.7083333333333334
+xgboost,prob_margin < 0.3,39,0.7948717948717948
+catboost,all,168,0.9404761904761905
+catboost,top1_probability < 0.5,32,0.75
+catboost,top1_probability < 0.6,56,0.8571428571428571
+catboost,top1_probability < 0.7,74,0.8783783783783784
+catboost,top1_probability < 0.8,79,0.8734177215189873
+catboost,top1_probability < 0.9,94,0.8936170212765957
+catboost,prob_margin < 0.05,4,1.0
+catboost,prob_margin < 0.1,10,0.9
+catboost,prob_margin < 0.2,24,0.7916666666666666
+catboost,prob_margin < 0.3,40,0.825
+lightgbm,all,168,0.9166666666666666
+lightgbm,top1_probability < 0.5,15,0.5333333333333333
+lightgbm,top1_probability < 0.6,37,0.7027027027027027
+lightgbm,top1_probability < 0.7,52,0.7692307692307693
+lightgbm,top1_probability < 0.8,67,0.8208955223880597
+lightgbm,top1_probability < 0.9,79,0.8227848101265823
+lightgbm,prob_margin < 0.05,3,0.6666666666666666
+lightgbm,prob_margin < 0.1,6,0.6666666666666666
+lightgbm,prob_margin < 0.2,16,0.625
+lightgbm,prob_margin < 0.3,25,0.56
